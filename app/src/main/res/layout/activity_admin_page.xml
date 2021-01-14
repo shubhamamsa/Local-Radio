@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/home_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Design"
+            android:padding="50dp" />
+        <Button
+            android:id="@+id/user_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Registration"
+            android:padding="50dp" />
+        <Button
+            android:id="@+id/user_home_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Page"
+            android:padding="50dp" />
+        <Button
+            android:id="@+id/user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:padding="50dp" />
+        <Button
+            android:id="@+id/music_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Music Player"
+            android:padding="50dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
